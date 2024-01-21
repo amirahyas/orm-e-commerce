@@ -3,6 +3,10 @@ const Product = require('./Product');
 const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
+const tag = require('dotenv').config();
+
+
+
 
 // Products belongsTo Category
 
